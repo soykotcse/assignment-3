@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    /* background-color: #f0f0f0; */
+    /* border-bottom: 1px solid; */
+    /* padding: 20px; */
+}
+/*hader part css start*/
+body{}
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo img{}
+
+.menu{
+    list-style: none;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    margin-left: 55px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+}
+.menu ul li a:hover{
+    color: blue;
+    border-bottom: 1px solid green;
+    
+}
+/*hader part css start*/
+/*banner part css start*/
+.banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+.banner img{
+    width: 100%;
+}
+/*banner part css end*/
+/*photodiary part css start*/
+.photodiary{
+    width: 80% !important;
+    margin: auto;
+}
+.photodiary h5{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.photodiary h1{
+    color: #626262;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+.photodiary p{
+    color: #626262;
+    margin-top: 30px;
+    line-height: 20px;
+}
+.photodiary a{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-weight: 400;
+}
+/*photodiary part css end*/
+/*Lifestyle part start css*/
+.lifestyle{
+    margin: auto;
+    width: 80%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.lifestyle img{
+    width: 100%;
+}
+.lifestyle h5{
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.lifestyle h1{
+    color: #626262;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+.lifestyle p{
+    line-height: 20px;
+    color: #626262;
+}
+.singel-lifestyle{
+    width: 45%;
+}
+
+/*Lifestyle part end css*/
+/*newsletter part css start*/
+.newsletter{
+    background-color: #f0f0f0;
+    min-height: 200px;
+    /* text-align: center; */
+}
+.newsletter h1{}
+.newsletter input{
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-bottom: 7px;
+    position: relative;
+}
+.newsletter img {
+    position: absolute;
+    right: 40%;
+}
+.content{
+    width:21%;
+    margin: auto;
+    padding-top: 4%;
+    /* margin-top: 20%; */
+}
+/*newsletter part css end*/
+/*load more part css start*/
+.btn{
+    text-align: center;
+    min-height: 300px;
+    margin-top: 145px;
+}
+.btn input{
+    border: none;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+}
+/*load more part css end*/
+/*Footer part start*/
+footer{
+    background-color: #f0f0f0;
+    min-height: 70px;
+}
+.footer-content{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 65px;
+    padding-top: 6%;
+}
+.Privacy{
+    width: 30%;
+}
+.Privacy ul{
+    list-style: none;
+    /* text-decoration: none; */
+}
+.Privacy ul li{
+    text-decoration: none;
+    float: left;
+    margin-right: 31px;
+    /* color: beige; */
+}
+.Privacy ul li a{
+    text-decoration: none;
+    color: #626262;
+}
+.Social_icon{width: 25%;}
+.Social_icon ul{
+    list-style: none;
+}
+.Social_icon ul li{
+    float: left;
+    margin-right: 20px;
+}
+.Social_icon ul li a {
+    text-decoration: none;
+    color: #626262;
+}
+.Social_icon ul li a i{}
+
+/*Footer part end*/
